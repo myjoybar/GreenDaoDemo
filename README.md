@@ -39,7 +39,7 @@ studyDemos about greenDAO
         entity.setTableName("tb_user");//设置表名,默认是entityClassName(NOTE)的大写形式
     }
 ```
-2在application中初始化GreenDao
+#### 2在application中初始化GreenDao
 
 ```
   GreenDaoManager.initialize(this);//初始化数据库
