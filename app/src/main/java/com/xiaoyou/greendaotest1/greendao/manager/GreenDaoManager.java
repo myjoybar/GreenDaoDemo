@@ -15,19 +15,14 @@ import com.xiaoyou.greendaotest1.utils.APPUtils;
  * Created by joybar on 8/19/16.
  */
 public class GreenDaoManager {
-
-
     private static String TAG = "GreenDaoManager";
     private static GreenDaoManager greenDaoManager;
-
     private static DaoSession daoSession;//greenDao数据库
     private static DaoMaster.DevOpenHelper helper;
     private static Context context;
     public static final String dbName = "mynote.db";
 
     public GreenDaoManager() {
-
-
     }
 
     public static void initialize(Context cxt) {
