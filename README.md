@@ -2,7 +2,7 @@
 studyDemos about greenDAO
 
 # 使用步骤
-#### 1生成DAO和实体
+#### 1生成entities and DAOs.
 
 ```
   public static void main(String[] args) throws Exception {

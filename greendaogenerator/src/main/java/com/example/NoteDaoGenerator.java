@@ -11,8 +11,9 @@ public class NoteDaoGenerator {
 
     //http://blog.csdn.net/axuanqq/article/details/49585387
     //http://blog.csdn.net/chenguang79/article/details/50441343
+    //http://blog.csdn.net/luckchoudog/article/details/51274241
 
-    public static final int version = 1;//数据库版本号，//数据库版本最好和VersionCode对应
+    public static final int version = 1;//数据库版本号，
     public static final String entityPackageName = "com.joybar.db.entity";//实体生存的包名
     public static final String entityClassName = "Note";//实体的类名
     public static final String daoPackageName = "com.joybar.db.dao";//指定dao层模板的包
