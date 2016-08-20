@@ -8,7 +8,7 @@ package com.joybar.db.entity;
 /**
  * auto greenDao generate javaBean by joybar
  */
-public class Note {
+public class Note implements java.io.Serializable {
 
     private Long id;
     /** Not-null value. */
