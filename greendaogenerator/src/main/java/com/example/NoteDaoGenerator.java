@@ -75,6 +75,8 @@ public class NoteDaoGenerator {
         picture.addStringProperty("pictureName").notNull();
         picture.addIntProperty("width");
         picture.addIntProperty("height");
+        picture.setTableName("tb_pic");//设置表名,默认是entityClassName(NOTE)的大写形式
+
 
         //建立一对一关联
         Property property =  user.addLongProperty("pictureId").getProperty();
