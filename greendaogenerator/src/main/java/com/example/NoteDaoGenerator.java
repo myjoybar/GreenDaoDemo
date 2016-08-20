@@ -15,6 +15,7 @@ public class NoteDaoGenerator {
     //http://blog.csdn.net/chenguang79/article/details/50441343
     //http://blog.csdn.net/luckchoudog/article/details/51274241
     // http://www.jianshu.com/p/db639ea070ce
+   // http://www.jianshu.com/collection/3ac0f0d78091
     public static final int version = 1;//数据库版本号，
     public static final String entityPackageName = "com.joybar.db.entity";//实体生存的包名
     public static final String entityClassName = "Note";//实体的类名

@@ -26,7 +26,7 @@ public class GreenDaoManager {
     }
 
     public static void initialize(Context cxt) {
-        context = cxt;
+        context = cxt.getApplicationContext();
         initGreenDao();
     }
 
